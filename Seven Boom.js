@@ -15,7 +15,7 @@ function sevenBoom (numArr){
     if(arrToString.includes(7)){
         return 'BOOM!';
     } else{
-        return 'No 7.';
+        return 'there is no 7 in the array.';
     }
 }
 let numArr = [0, 1, 3, 9];
