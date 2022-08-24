@@ -53,7 +53,7 @@ function canMove(chessPiece, position, target) {
             } return false;
             break;
         case "Bishop":
-            {
+            if ((Math.abs(posX - tarX)) == (Math.abs(posY - tarY))) {
                 return true;
             } return false;
             break;
