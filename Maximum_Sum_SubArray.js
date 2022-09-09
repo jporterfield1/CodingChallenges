@@ -29,12 +29,12 @@ function maxSum(arr) {
     
 }
 
-let arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
-let arr2 = [2, 2, -2];
-let arr3 = [2, 2, -2, 8, 1, -5];
-let arr4 = [2, 2, -2, 8, 1, -5, -20];
+let arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]; //Expect 6
+let arr2 = [2, 2, -2]; //Expect 4
+let arr3 = [2, 2, -2, 8, 1, -5]; //Expect 7
+let arr4 = [2, 2, -2, 8, 1, -5, -20]; //Expect 15
 
-//console.log(maxSum(arr));
-//console.log(maxSum(arr2));
-//console.log(maxSum(arr3));
-console.log(maxSum(arr4));
+console.log(maxSum(arr)); //Pass
+console.log(maxSum(arr2)); //Pass
+console.log(maxSum(arr3)); //Pass
+console.log(maxSum(arr4)); //Pass
