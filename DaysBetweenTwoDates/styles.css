@@ -1,0 +1,22 @@
+body{
+    padding: 1rem;
+}
+
+h1{
+    padding-bottom: 1rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+label{
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+#result{
+    font-weight: bold;
+    color: blue;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+}
